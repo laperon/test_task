@@ -9,7 +9,6 @@
  *
  * @return void
  */
-
 function admin_notification( $new_status, $old_status, $post ) {
 	if ( $new_status == 'publish' && $old_status != 'publish' && $post->post_type == 'ads' ) {
 		$author  = get_userdata( $post->post_author );

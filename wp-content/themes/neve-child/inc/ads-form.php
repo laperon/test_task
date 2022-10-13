@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Ads Form
+ * Ads Form functionality
  */
 class AdsForm {
 	public function __construct() {

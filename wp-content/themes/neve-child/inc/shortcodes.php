@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Custom shorcodes
+ * Custom shortcodes
  */
 class Shortcodes {
 	public function __construct() {
@@ -10,9 +10,7 @@ class Shortcodes {
 
 	public function form_ads_shortcode() {
 		ob_start(); ?>
-        <form id="ads-form" method="post" action="<?php echo add_query_arg( [
-			'form' => 'add_publication'
-		] ); ?> " enctype="multipart/form-data">
+        <form id="ads-form" method="post" enctype="multipart/form-data">
             <ul>
                 <li>
                     <label for="title">

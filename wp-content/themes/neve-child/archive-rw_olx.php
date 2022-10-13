@@ -10,7 +10,6 @@
                             </div>
 	                        <?php the_title( '<h1>', '</h1>' ); ?>
                         </a>
-
                     </div>
 				<?php endwhile; ?>
             </div>
